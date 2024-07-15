@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>AWARD WINNING</h1>
+                <h2>DIGITAL MARKETING AGENCY</h2>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+                <button id="contactBtn">Contact Us</button>
+            </div>
+            <div class="hero-image">
+                <img src="/images/image1.jpeg" alt="Woman crafting">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+    <!-- swiper -->
+    <section class="services">
+        <h2>WHAT WE DO</h2>
+        <h3>SERVICES PROVIDE FOR YOU</h3>
+        <div class="services-container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="service-item">
+                <img src="/images/image2.jpeg" alt="Service 1">
+            </div>
+            <div class="service-item">
+                <img src="/images/image3.jpeg" alt="Service 2">
+            </div>
+            <div class="service-item">
+                <img src="/images/image4.jpeg" alt="Service 2">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="service-item">
+                <img src="/images/image5.jpeg" alt="Service 3">
+            </div>
+            <div class="service-item">
+                <img src="/images/image3.jpeg" alt="Service 2">
+            </div>
+            <div class="service-item">
+                <img src="/images/image3.jpeg" alt="Service 2">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="service-item">
+                <img src="/images/image5.jpeg" alt="Service 3">
+            </div>
+            <div class="service-item">
+                <img src="/images/image3.jpeg" alt="Service 2">
+            </div>
+            <div class="service-item">
+                <img src="/images/image3.jpeg" alt="Service 2">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </section>
+
+    <!-- why choose us -->
+    <section class="why-us">
+        <h2>WHY CHOOSE US</h2>
+        <h3>WHY WE ARE BEST</h3>
+        <div class="why-us-container">
+            <div class="why-us-item">
+                <i class="fa-regular fa-circle-dot"></i>
+                <h4>Clarified Vision & Target</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="why-us-item">
+                <i class="fa-regular fa-clock"></i>
+                <h4>High Performance</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="why-us-item">
+                <i class="fa-solid fa-user-lock"></i>
+                <h4>Maintain Security</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="why-us-item">
+                <i class="fa-solid fa-circle-radiation"></i>
+                <h4>Better Strategy & Quality</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--projects  -->
+    <section class="project">
+        <h2>OUR PROJECT</h2>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="content">
+            <div class="image">
+                <img id="projectImage" src="/images/image6.jpeg" alt="Melons and Apricots">
+            </div>
+            <div class="text">
+                <div class="card" onclick="changeImage1('path_to_image1.jpg')">
+                    <h3>Genderless Kei – Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="card highlight" onclick="changeImage2('path_to_image2.jpg')">
+                    <h3>Better Strategy & Quality</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="card" onclick="changeImage3('path_to_image3.jpg')">
+                    <h3>Genderless Kei – Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- groth -->
+    <section class="growth">
+        <h2>EXPERTS GROWTH</h2>
+        <h1>OUR COMPANY GROWTH</h1>
+        <div class="stats">
+            <div class="stat">
+                <span class="icon">❤️</span>
+                <h3>199+</h3>
+                <p>Staticfied Customers</p>
+            </div>
+            <div class="stat">
+                <span class="icon">🕒</span>
+                <h3>1591+</h3>
+                <p>Days Of Operation</p>
+            </div>
+            <div class="stat">
+                <span class="icon">✔️</span>
+                <h3>283+</h3>
+                <p>Complete Project</p>
+            </div>
+            <div class="stat">
+                <span class="icon">🏆</span>
+                <h3>75+</h3>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- feedback -->
+    <section class="feedback">
+        <h2>CLIENT'S FEEDBACK</h2>
+        <h1>PEOPLE SAY'S ABOUT US!</h1>
+        <blockquote>
+            <p>"Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original."</p>
+            <footer>JANNAT TUMPA - COO, AMERIMAR ENTERPRISES, INC.</footer>
+        </blockquote>
+        <div class="logos">
+            <img src="https://static.vecteezy.com/system/resources/previews/037/009/756/original/letter-hr-logo-hr-logo-design-illustration-for-creative-company-business-industry-pro-vector.jpg" alt="Logo 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_Ab5iDFaJKnL7_-DEhQPFKIGH4NuRRJC4g&s" alt="Logo 2">
+            <img src="https://media.istockphoto.com/id/1338727955/vector/abstract-star-design-template.jpg?s=612x612&w=0&k=20&c=QiBLUCo0iIqzIJNEdMXSwqeSHie3O9PVcvBc_IP0SZM=" alt="Logo 3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYC20ITAzrD2TtaRzYzHuMqSVwcrEF9WaXXA&s" alt="Logo 4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKiE6vHMputNwRQYaeDHJ7ZQXrFedlnCkaA&s" alt="Logo 5">
+        </div>
+    </section>
+
+    <!-- Modal for Contact Form -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="contactForm" action="YOUR_GETFORM_ENDPOINT" method="POST">
+                <h2>Talk to us</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Work email">
+                <label for="name">First name:</label>
+                <input type="text" id="name" name="name" required placeholder="First Name">
+                <label for="name">Last name:</label>
+                <input type="text" id="name" name="name" required placeholder="Last name">
+                <button type="submit">Contact us</button>
+            </form>
+        </div>
+    </div>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
